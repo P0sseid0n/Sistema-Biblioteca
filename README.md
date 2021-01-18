@@ -15,25 +15,20 @@
 </p>
 
 ## Índice
-
+* [Tecnologias usadas](#tecnologias-usadas)
+* [Rotas da aplicação](#rotas-da-aplicação)
 * [Devchallenge](#devchallenge) 
-* [Desafio](#desafio)
-* [Techs](#techs)
-* [Como começar](#como-começar)
-* [Compartilhe](#compartilhe)
 
-# Devchallenge
-<a href="https://devchallenge.now.sh/"> DevChallenge</a> permite que você evolua suas skills como programador! Participe da nossa <a href="https://discord.gg/yvYXhGj">comunidade</a> o/
-
-# Desafio
-Seu desafio é criar o backend para um sistema de gerenciamento de uma biblioteca!
 
 ## Rotas da aplicação:
-<b>[POST] </b> /obras :  A rota deverá receber titulo, editora, foto, e autores dentro do corpo da requisição. Ao cadastrar um novo projeto, ele deverá ser armazenado dentro de um objeto no seguinte formato: { id: 1, titulo: 'Harry Potter', editora: 'Rocco',foto: 'https://i.imgur.com/UH3IPXw.jpg', autores: ["JK Rowling", "..."]};<br><br>
-<b>[GET] </b> /obras/ : A rota deverá listar todas as obras cadastradas<br><br>
-<b>[PUT] </b> /obras/:id: : A rota deverá atualizar as informações de titulo, editora, foto e autores da obra com o id presente nos parâmetros da rota<br><br>
-<b>[DELETE] </b> /obras/:id: : A rota deverá deletar a obra com o id presente nos parâmetros da rota<br>
+<b>[GET] </b> /obras : Retorna as obras cadastradas<br><br>
+<b>[POST] </b> /obras :  Deverá receber titulo, editora, foto, e autores dentro do corpo da requisição. Ex: { id: 1, titulo: 'Harry Potter', editora: 'Rocco',foto: 'https://i.imgur.com/UH3IPXw.jpg', autores: ["JK Rowling", "..."]};<br><br>
+<b>[PUT] </b> /obras/:ID : A rota deverá atualizar as informações de titulo, editora, foto e autores da obra com o id sendo o indice da obra no array<br><br>
+<b>[DELETE] </b> /obras/:ID : A rota deverá deletar a obra com o id sendo o indice da obra no array<br>
 
 
 # Tecnologias usadas: 
 - Express
+
+# Devchallenge
+<a href="https://devchallenge.now.sh/"> DevChallenge</a> permite que você evolua suas skills como programador! Participe da nossa <a href="https://discord.gg/yvYXhGj">comunidade</a> o/
