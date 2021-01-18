@@ -1,0 +1,23 @@
+{
+  "name": "biblioteca-api",
+  "version": "1.0.0",
+  "description": "Api de cadastro de livros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Posseidon0110/Biblioteca-API.git"
+  },
+  "author": "Posseidon0110",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Posseidon0110/Biblioteca-API/issues"
+  },
+  "homepage": "https://github.com/Posseidon0110/Biblioteca-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
