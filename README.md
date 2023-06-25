@@ -15,20 +15,23 @@
 </p>
 
 ## Índice
-* [Tecnologias usadas](#tecnologias-usadas)
-* [Rotas da aplicação](#rotas-da-aplicação)
-* [Devchallenge](#devchallenge) 
 
+-  [Tecnologias usadas](#tecnologias-usadas)
+-  [Rotas da aplicação](#rotas-da-aplicação)
+-  [Devchallenge](#devchallenge)
 
 ## Rotas da aplicação:
+
 <b>[GET] </b> /obras : Retorna as obras cadastradas<br><br>
-<b>[POST] </b> /obras :  Deverá receber titulo, editora, foto, e autores dentro do corpo da requisição. Ex: { id: 1, titulo: 'Harry Potter', editora: 'Rocco',foto: 'https://i.imgur.com/UH3IPXw.jpg', autores: ["JK Rowling", "..."]};<br><br>
+<b>[GET] </b> /obras/:ID : Retorna a obra com o id sendo o indice da obra no array<br><br>
+<b>[POST] </b> /obras : Deverá receber titulo, editora, foto, e autores dentro do corpo da requisição. Ex: { id: 1, titulo: 'Harry Potter', editora: 'Rocco',foto: 'https://i.imgur.com/UH3IPXw.jpg', autores: ["JK Rowling", "..."]};<br><br>
 <b>[PUT] </b> /obras/:ID : A rota deverá atualizar as informações de titulo, editora, foto e autores da obra com o id sendo o indice da obra no array<br><br>
 <b>[DELETE] </b> /obras/:ID : A rota deverá deletar a obra com o id sendo o indice da obra no array<br>
 
+# Tecnologias usadas:
 
-# Tecnologias usadas: 
-- Express
+-  Express
 
 # Devchallenge
+
 <a href="https://devchallenge.now.sh/"> DevChallenge</a> permite que você evolua suas skills como programador! Participe da nossa <a href="https://discord.gg/yvYXhGj">comunidade</a> o/
